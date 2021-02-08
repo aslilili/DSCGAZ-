@@ -1,0 +1,44 @@
+$saat = date("h");
+
+if($saat>0) {
+
+$hos = "Esenlikler Dilerim";
+
+echo "$hos";
+
+}
+
+if($saat>6) {
+
+$hos = "Günaydın";
+
+echo $hos;
+
+}
+
+if($saat>10) {
+
+$hos = "İyi Günler";
+
+echo $hos;
+
+}
+
+if($saat>17) {
+
+$hos = "İyi Akşamlar";
+
+echo $hos;
+
+}
+
+if($saat>20) {
+
+$hos = "İyi Geceler";
+
+echo $hos;
+
+}
+
+
+?>
