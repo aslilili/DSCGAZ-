@@ -1,0 +1,22 @@
+<?php
+$i=0; //Aradığımız sayi
+$toplam=0; //Bulduğumuz sayi adedi
+while($toplam<=3) //Bulunacak sayi adedinin 1 eksiği
+{
+	$i++; // Aranan sayiyi arttırıyoruz
+	$itoplam=0;
+	for($k=1;$k<$i;$k++) 
+	{
+		
+		if($i  % $k == 0) //Sayi, sayinin tam bölenimi sorguluyoruz
+		{
+			$itoplam+=$k; //Bölünenlerin toplamina ekliyoruz
+		}
+	}
+	if($itoplam==$i) //Bölünenlerin toplami aranan sayiya esitmi soruguuyoruz
+	{
+		echo "$i <br />";
+		$toplam++;//bulana kadar sayacı arttırıyoruz
+	}
+}
+?>
