@@ -1,0 +1,19 @@
+while True:
+    sayi = input("1 den Büyük Sayı Giriniz: ")
+    if sayi == 1:
+        print "1 den büyük sayı giriniz"
+        continue
+    elif sayi != 1:
+        if sayi == 2:
+            print " Sayı Asal"
+            break
+        for i in range(2,sayi):    
+            if sayi % i == 0:
+                print "Sayı Asal Değil"
+                break
+            else:
+                print "Sayı Asal"
+                break
+        break
+
+   
